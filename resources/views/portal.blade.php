@@ -45,9 +45,8 @@
                     <li class="page-scroll active"><a href="#home">Home</a></li>
                     <li class="page-scroll"><a href="#profile">Profile</a></li>
                     <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
-                    <li class="page-scroll"><a href="#services">Services</a></li>
-                    <li class="page-scroll"><a href="#resume">Resume</a></li>
-                    <li class="page-scroll"><a href="#references">References</a></li>
+                    <li class="page-scroll"><a href="#achievements">Achievements</a></li>
+                    <li class="page-scroll"><a href="#portal">Portal</a></li>
                     <li class="page-scroll"><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -56,4 +55,64 @@
         <!-- // .navbar-container -->
     </nav></div>
     <!-- // NAVIGATION END -->
+
+    <!-- PROFILE SECTION START -->
+    <section id="profile" class="section" style="background-color: #222">
+        <div class="container section-wrapper">
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-7 match-height" style="height: 893px;">
+                        <!-- PROFILE TEXT START -->
+                        <div class="profile-text padding-right-yes">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2 class="section-title">Hello, I'm Lawrence <strong>Paine</strong>.</h2>
+
+                                    <p>Based in <strong>Hull, England</strong>, a freelance <strong><a href="/assets/docs/laravel-certificate-fraser-murray-2018-04-16.pdf">Laravel Certified</a> PHP developer</strong> with varied client portfolio from 19 years in commercial, academic and charity sectors.</p>
+
+                                    <h4 style="padding-top: 30px; margin-bottom: 15px; font-size: 18px; text-transform: uppercase; font-weight: bold;">Availability</h4>
+
+                                    <p>I have availability from mid-April 2020 for additional work on remote <strong>Laravel</strong>  or <strong>PHP</strong> website work, code auditing or mentoring to complement existing long-term projects that have variable but predictable monthly commitments.</p>
+
+                                    <ul>
+                                        <li>For an ongoing relationship on a part-time basis, from a few hours per month up to ~500 hours per year, or</li>
+                                        <li>on a short-term contract, up to ~25 hours per week</li>
+                                    </ul>
+
+                                    <p>Hourly rate: £54</p>
+
+                                    <p>Usual working hours: 9:30-5 (Tues), 9:30-3 (Mon, Fri), 9:30-11:30 (Wed, Thurs), to fit around existing school drop-off/pick-ups, plus some additional evening/weekend hours if necessary.</p>
+
+                                    <p>Current working hours: during the pandemic I likely won't be keeping consistent working hours and it may take longer to answer support tickets than normal.</p>
+
+                                    <div class="contact-details">
+                                        <h4 style="padding-top: 10px; font-weight: bold;">Contact Details</h4>
+
+                                        <ul class="list-unstyled text-grey">
+                                            <li>Fraser Murray</li>
+                                            <li>67 Hillfoot Drive, Glasgow, UK, G61 3QG</li>
+                                            <li><a href="tel:+447905376151">+44 7905 376 151</a></li>
+                                            <li><a href="mailto:hello@frasermurray.scot">hello@frasermurray.scot</a></li>
+                                            <li><a href="https://frasermurray.scot">frasermurray.scot</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-md-offset-1 hidden-xs hidden-sm match-height pp-wrapper" style="height: 893px;">
+                        <div class="profile-picture style-one">
+                            <img src="/assets/images/fraser.png" alt="profile picture" class="img-responsive">
+                        </div>
+                    </div>
+                    <!-- //PROFILE PICTURE END -->
+                </div>
+                <!-- //.row -->
+            </div>
+            <!-- //.section-content -->
+        </div>
+        <!-- //.container -->
+    </section>
+    
+    <!-- // PROFILE SECTION END -->
 </body><html
