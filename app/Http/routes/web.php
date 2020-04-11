@@ -35,6 +35,6 @@ Route::get('/portal', function() {
    return view('portal');
 });
 
-Route::group(['middleware' => ['web']], function () {
+// Route::group(['middleware' => ['web']], function () {
 
-});
+// });
