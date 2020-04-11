@@ -1,0 +1,6 @@
+Create plane of website:
+
+homepage will probably be the most complicated:
+maybe look at portals first?
+
+Also update public files on C-panel to include 'app.php'
