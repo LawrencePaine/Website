@@ -92,7 +92,7 @@
                     <a href="{{ url('/portal') }}">Portfolio</a>
                     <a href="{{ url('/portal') }}">Achievements</a>
                     <a href="{{ url('/portal') }}">Portal</a>
-                    <a href="{{ url('/contact') }}">Contact</a>
+                    <a href="{{ url('/demo') }}">Contact</a>
                 </div>
             </div>
         </div>

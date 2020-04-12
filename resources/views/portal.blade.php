@@ -1,5 +1,99 @@
 <html class="no-js gr__lawrencepaine_eng" lang="en"><!--<![endif]--><head>
+<meta charset="utf-8">
 @extends('layouts.app')
+
+    <style>
+        html, body {
+            background-color: #fff;
+            color: #636b6f;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 200;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .full-height {
+            height: 100vh;
+        }
+
+        .flex-center {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .position-ref {
+            position: relative;
+        }
+
+        .top-right {
+            position: absolute;
+            right: 10px;
+            top: 18px;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        .title {
+            font-size: 84px;
+        }
+
+        .links > a {
+            color: #636b6f;
+            padding: 0 25px;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: .1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        .m-b-md {
+            margin-bottom: 30px;
+        }
+
+        #navbar {
+            overflow: hidden;
+            background-color: #333;
+            }
+
+        /* Navbar links */
+        #navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+        }
+
+        /* Page content */
+        .content {
+        padding: 16px;
+        }
+
+        /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+        .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        }
+
+        /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+        .sticky + .content {
+        padding-top: 60px;
+        }
+
+        .navbar-sticky-top
+        {
+            position: fixed;
+            z-index: 999;
+            opacity:1;
+            width: 100%;
+        }
+    </style>
 
 @section('content')
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="66" data-gr-c-s-loaded="true" style="display: block;">
@@ -12,7 +106,7 @@
 
                 <h2 style="text-transform: uppercase; padding-top: 40px"><div><strong>Website</strong> Developer</div> <div style="padding-top: 10px">Certified <strong>Laravel</strong> Developer</div><div style="padding-top: 10px"><strong>PHP</strong> Developer</div></h2>
 
-                <p class="uppercase" style="padding-top: 10px">Remote / Glasgow, Scotland</p>
+                <p class="uppercase" style="padding-top: 10px">Remote / Hull, England</p>
 
                 <div class="page-scroll">
                     <a href="#profile" class="btn btn-lg btn-custom">
@@ -25,35 +119,23 @@
         </div>
         <!-- // .hero-body -->
     </header>
+
     <!-- NAVIGATION START -->
-    <div id="navigation-sticky-wrapper" class="sticky-wrapper" style="height: 66px;"><nav id="navigation" class="navbar navbar-fixed-top center-menu">
-        <div class="container navbar-container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".berg-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-
-                <a class="navbar-brand visible-xs visible-sm" href="#page-top">Fraser Murray</a>
-            </div>
-            <!-- // .navbar-header -->
-
-            <div class="navbar-collapse collapse berg-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="page-scroll active"><a href="#home">Home</a></li>
-                    <li class="page-scroll"><a href="#profile">Profile</a></li>
-                    <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
-                    <li class="page-scroll"><a href="#achievements">Achievements</a></li>
-                    <li class="page-scroll"><a href="#portal">Portal</a></li>
-                    <li class="page-scroll"><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-            <!-- // .navbar-collapse -->
-        </div>
-        <!-- // .navbar-container -->
-    </nav></div>
+<nav class="navbar navbar-default ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+        <li class="page-scroll active"><a href="#home">Home</a></li>
+        <li class="page-scroll"><a href="#profile">Profile</a></li>
+        <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
+        <li class="page-scroll"><a href="#achievements">Achievements</a></li>
+        <li class="page-scroll"><a href="#portal">Portal</a></li>
+        <li class="page-scroll"><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
     <!-- // NAVIGATION END -->
 
     <!-- PROFILE SECTION START -->
@@ -89,11 +171,11 @@
                                         <h4 style="padding-top: 10px; font-weight: bold;">Contact Details</h4>
 
                                         <ul class="list-unstyled text-grey">
-                                            <li>Fraser Murray</li>
-                                            <li>67 Hillfoot Drive, Glasgow, UK, G61 3QG</li>
-                                            <li><a href="tel:+447905376151">+44 7905 376 151</a></li>
-                                            <li><a href="mailto:hello@frasermurray.scot">hello@frasermurray.scot</a></li>
-                                            <li><a href="https://frasermurray.scot">frasermurray.scot</a></li>
+                                            <li>Lawrence Paine</li>
+                                            <li>16 Yeoman Drive, Beverley, UK, HU17 8FG</li>
+                                            <li><a href="tel:+447904343518">+44 7904 343 518</a></li>
+                                            <li><a href="mailto:l.paine@hotmail.co.uk">l.paine@hotmail.co.uk</a></li>
+                                            <li><a href="https://lawrencepaine.co.uk">lawrencepaine.co.uk</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -115,4 +197,5 @@
     </section>
     
     <!-- // PROFILE SECTION END -->
+
 </body><html
