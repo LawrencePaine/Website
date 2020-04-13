@@ -23,13 +23,18 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-// Route::get('/portal', 'portalController@index')->name('portal');
+// Route::get('/contact', 'ContactController@index')->name('contact');
 
 Route::get('/contact', function() {
     return view('contact');
 });
 
+// Route::get('/portal', 'portalController@index')->name('portal');
+
 Route::get('/portal', function() {
    return view('portal');
 });
-// Route::get('/contact', 'ContactController@index')->name('contact');
+
+// Route::group(['middleware' => ['web']], function () {
+
+// });
