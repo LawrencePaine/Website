@@ -4956,6 +4956,13 @@ input[type=button].btn-block {
   color: #fff;
 }
 
+.navbar-sticky-top {
+  position: fixed;
+  z-index: 999;
+  opacity:1;
+  width: 100%;
+}
+
 .card {
   position: relative;
   display: flex;

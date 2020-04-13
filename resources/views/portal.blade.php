@@ -121,21 +121,33 @@
     </header>
 
     <!-- NAVIGATION START -->
-<nav class="navbar navbar-default ">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
-    </div>
-    <ul class="nav navbar-nav">
-        <li class="page-scroll active"><a href="#home">Home</a></li>
-        <li class="page-scroll"><a href="#profile">Profile</a></li>
-        <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
-        <li class="page-scroll"><a href="#achievements">Achievements</a></li>
-        <li class="page-scroll"><a href="#portal">Portal</a></li>
-        <li class="page-scroll"><a href="#contact">Contact</a></li>
-    </ul>
-  </div>
-</nav>
+    <div id="navigation-sticky-wrapper" class="sticky-wrapper" style="height: 66px"><nav id="navigation" class="navbar navbar-fixed-top center-menu">
+        <div class="container navbar-container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".berg-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand visible-xs visible-sm" href="#page-top">Lawrence Paine</a>
+            </div>
+            <!-- // .navbar-header -->      
+
+            <div class="navbar-collapse collapse berg-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="page-scroll active"><a href="#home">Home</a></li>
+                    <li class="page-scroll"><a href="#profile">Profile</a></li>
+                    <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
+                    <li class="page-scroll"><a href="#achievements">Achievements</a></li>
+                    <li class="page-scroll"><a href="#portal">Portal</a></li>
+                    <li class="page-scroll"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav></div>
+
     <!-- // NAVIGATION END -->
 
     <!-- PROFILE SECTION START -->
@@ -195,7 +207,40 @@
         </div>
         <!-- //.container -->
     </section>
-    
     <!-- // PROFILE SECTION END -->
 
+      <!-- PORTFOLIO SECTION START -->
+    <section id="services" class="section bg-image-yes">
+        <div class="container-fluid section-wrapper">
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                    </div>
+                </div>
+
+                <!-- SERVICES START -->
+                <div class="services">
+                    <div class="row">
+                    </div>
+                    <!-- // .row -->
+                </div>
+                <!-- // SERVICES END -->
+            </div>
+            <!-- // .section-content -->
+        </div>
+        <!-- // .container -->
+    </section>
+    <!-- // PORTFOLIO SECTION END -->
+        
+    <!-- // ACHIEVEMENTS SECTION START -->
+
+    <!-- // ACHIEVEMENTS SECTION END -->
+
+     <!-- // PORTAL SECTION START -->
+
+    <!-- // PORTAL SECTION END -->
+
+     <!-- // CONTACT SECTION START -->
+
+    <!-- // CONTACT SECTION END -->
 </body><html
