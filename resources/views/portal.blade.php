@@ -2,6 +2,9 @@
 <meta charset="utf-8">
 @extends('layouts.app')
 
+<!-- load bootstrap from a cdn -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/3.0.3/css/bootstrap-combined.min.css">
+
     <style>
         html, body {
             background-color: #fff;
