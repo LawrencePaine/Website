@@ -107,7 +107,7 @@
                     Lawrence <strong>Paine</strong> <span class="blinker"></span>
                 </h1>
 
-                <h2 style="text-transform: uppercase; padding-top: 40px"><div><strong>Website</strong> Developer</div> <div style="padding-top: 10px">Certified <strong>Laravel</strong> Developer</div><div style="padding-top: 10px"><strong>PHP</strong> Developer</div></h2>
+                <h2 style="text-transform: uppercase; padding-top: 40px"><div><strong>Website</strong> Developer</div></h2>
 
                 <p class="uppercase" style="padding-top: 10px">Remote / Hull, England</p>
 
@@ -124,37 +124,37 @@
     </header>
 
     <!-- NAVIGATION START -->
-    <div id="navigation-sticky-wrapper" class="sticky-wrapper" style="height: 66px"><nav id="navigation" class="navbar navbar-fixed-top center-menu">
-        <div class="container navbar-container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".berg-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+    <div id="navigation-sticky-wrapper" class="sticky-wrapper" style="height: 66px">
+        <nav id="navigation" class="navbar navbar-fixed-top center-menu"> 
+            <div class="container navbar-container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".berg-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- // .navbar-header -->      
 
-                <a class="navbar-brand visible-xs visible-sm" href="#page-top">Lawrence Paine</a>
+                <div class="navbar-collapse collapse berg-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="page-scroll active"><a href="#home">Home</a></li>
+                        <li class="page-scroll"><a href="#profile">Profile</a></li>
+                        <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
+                        <li class="page-scroll"><a href="#achievements">Achievements</a></li>
+                        <li class="page-scroll"><a href="#portal">Portal</a></li>
+                        <li class="page-scroll"><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-            <!-- // .navbar-header -->      
-
-            <div class="navbar-collapse collapse berg-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="page-scroll active"><a href="#home">Home</a></li>
-                    <li class="page-scroll"><a href="#profile">Profile</a></li>
-                    <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
-                    <li class="page-scroll"><a href="#achievements">Achievements</a></li>
-                    <li class="page-scroll"><a href="#portal">Portal</a></li>
-                    <li class="page-scroll"><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav></div>
+        </nav>
+    </div>
 
     <!-- // NAVIGATION END -->
 
     <!-- PROFILE SECTION START -->
-    <section id="profile" class="section" style="background-color: #222">
+    <section id="profile" class="section" style="background-color: #5F9EA0">
         <div class="container section-wrapper">
             <div class="section-content">
                 <div class="row">
