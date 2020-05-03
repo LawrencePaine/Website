@@ -90,7 +90,8 @@
                     <a href="{{ url('/home') }}">Home</a>
                     <a href="{{ url('/portal') }}">Profile</a>
                     <a href="{{ url('/portal') }}">Portfolio</a>
-                    <a href="{{ url('/portal') }}">Achievements</a>
+                    <a href="{{ url('/default') }}">Achievements</a>
+                    <a href="{{ url('/payment') }}">Payment</a>
                     <a href="{{ url('/portal') }}">Portal</a>
                     <a href="{{ url('/demo') }}">Contact</a>
                 </div>

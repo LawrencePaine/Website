@@ -38,3 +38,11 @@ Route::get('/portal', function() {
 // Route::group(['middleware' => ['web']], function () {
 
 // });
+
+Route::get('/payment', function() {
+    return view('payment');
+ });
+
+ Route::get('/homenew', function() {
+    return view('homenew');
+ });
