@@ -4,3 +4,5 @@ homepage will probably be the most complicated:
 maybe look at portals first?
 
 Also update public files on C-panel to include 'app.php'
+
+see sticky bar css html: https://w3codepen.com/html-css-sticky-navbar-menu/

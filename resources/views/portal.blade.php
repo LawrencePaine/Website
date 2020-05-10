@@ -15,6 +15,16 @@
             margin: 0;
         }
 
+        nav a{
+            float:right;
+            text-decoration:none;
+            color:white;
+            font-size:18px; 
+            padding: 20px 30px; 
+            transition: all 0.5s ease 0s;
+            }
+     
+
         .full-height {
             height: 100vh;
         }
@@ -96,6 +106,14 @@
             opacity:1;
             width: 100%;
         }
+        
+        .stick-section{
+            overflow:hidden;
+            background-color:#556B2F;
+            margin-bottom:50px;
+            width:100%;
+            color: #f2f2f2
+        }
     </style>
 
 @section('content')
@@ -124,30 +142,12 @@
     </header>
 
     <!-- NAVIGATION START -->
-    <div id="navigation-sticky-wrapper" class="sticky-wrapper" style="height: 66px">
-        <nav id="navigation" class="navbar navbar-fixed-top center-menu"> 
-            <div class="container navbar-container">
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".berg-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <!-- // .navbar-header -->      
-
-                <div class="navbar-collapse collapse berg-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="page-scroll active"><a href="#home">Home</a></li>
-                        <li class="page-scroll"><a href="#profile">Profile</a></li>
-                        <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
-                        <li class="page-scroll"><a href="#achievements">Achievements</a></li>
-                        <li class="page-scroll"><a href="#portal">Portal</a></li>
-                        <li class="page-scroll"><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
+    <div class="sticky-section">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#profile">Profile</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#achievements">Achievements</a>
         </nav>
     </div>
 
@@ -165,7 +165,7 @@
                                 <div class="col-md-12">
                                     <h2 class="section-title">Hello, I'm Lawrence <strong>Paine</strong>.</h2>
 
-                                    <p>Based in <strong>Hull, England</strong>, a freelance <strong><a href="/assets/docs/laravel-certificate-fraser-murray-2018-04-16.pdf">Laravel Certified</a> PHP developer</strong> with varied client portfolio from 19 years in commercial, academic and charity sectors.</p>
+                                    <p>Based in <strong>Hull, England</strong></p>
 
                                     <h4 style="padding-top: 30px; margin-bottom: 15px; font-size: 18px; text-transform: uppercase; font-weight: bold;">Availability</h4>
 
@@ -210,40 +210,4 @@
         </div>
         <!-- //.container -->
     </section>
-    <!-- // PROFILE SECTION END -->
-
-      <!-- PORTFOLIO SECTION START -->
-    <section id="services" class="section bg-image-yes">
-        <div class="container-fluid section-wrapper">
-            <div class="section-content">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 text-center">
-                    </div>
-                </div>
-
-                <!-- SERVICES START -->
-                <div class="services">
-                    <div class="row">
-                    </div>
-                    <!-- // .row -->
-                </div>
-                <!-- // SERVICES END -->
-            </div>
-            <!-- // .section-content -->
-        </div>
-        <!-- // .container -->
-    </section>
-    <!-- // PORTFOLIO SECTION END -->
-        
-    <!-- // ACHIEVEMENTS SECTION START -->
-
-    <!-- // ACHIEVEMENTS SECTION END -->
-
-     <!-- // PORTAL SECTION START -->
-
-    <!-- // PORTAL SECTION END -->
-
-     <!-- // CONTACT SECTION START -->
-
-    <!-- // CONTACT SECTION END -->
 </body><html
