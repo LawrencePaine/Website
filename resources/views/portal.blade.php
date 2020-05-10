@@ -134,6 +134,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
+                    <a class="navbar-brand visible-xs visible-sm" href="#page-top">Lawrence Paine</a>
                 </div>
                 <!-- // .navbar-header -->      
 
