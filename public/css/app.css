@@ -4433,6 +4433,8 @@ input[type=button].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  border-color: goldenrod;
+  border-width: thick;
 }
 
 .nav-link {
@@ -4519,12 +4521,14 @@ input[type=button].btn-block {
 }
 
 .navbar {
-  position: relative;
+  position: sticky;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  border-color: goldenrod;
+  border-width: thick;
 }
 
 .navbar .container,
@@ -4560,6 +4564,7 @@ input[type=button].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  border-color: goldenrod;
 }
 
 .navbar-nav .nav-link {
@@ -4957,7 +4962,7 @@ input[type=button].btn-block {
 }
 
 .navbar-sticky-top {
-  position: fixed;
+  position: relative;
   z-index: 999;
   opacity:1;
   width: 100%;

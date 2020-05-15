@@ -21,28 +21,12 @@ use Illuminate\Support\Facades\Auth;
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');
 
-// Route::get('/contact', 'ContactController@index')->name('contact');
-
-Route::get('/contact', function() {
-    return view('contact');
-});
-
-// Route::get('/portal', 'portalController@index')->name('portal');
-
-Route::get('/portal', function() {
-   return view('portal');
-});
+Route::get('/home', function() {
+    return view('home');
+ });
 
 // Route::group(['middleware' => ['web']], function () {
 
 // });
-
-Route::get('/payment', function() {
-    return view('payment');
- });
-
- Route::get('/homenew', function() {
-    return view('homenew');
- });
