@@ -1,74 +1,89 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-        <link href="/css/app.css" rel="stylesheet">
-        <!-- Styles -->
-        <style>
-        body, html{
-        font-size: 100%;
-        font-family: "Helvetica", sans-serif;
-        margin:0;
-        padding:0;
-        background-color: #fff;
-        color: #636b6f;
-        text-align: center;
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <script>
+        window.Laravel = {
+            csrfToken: '{{ csrf_token() }}'
+        }
+    </script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    <link href="/css/app.css" rel="stylesheet">
+    <!-- Styles -->
+    <style>
+        body,
+        html {
+            font-size: 100%;
+            font-family: "Helvetica", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #636b6f;
+            text-align: center;
         }
 
-        main{
-        height: 1000px;
+        main {
+            height: 1000px;
         }
 
-        h1 {text-align: center;
-            color: white;}
-        h2 {text-align: center;
-            color: white}
-        p {text-align: center;
-            color: white;}
-
-        #logo{
-        font-size:20px;  
-        font-weight:bold;
-        float:left;
-        padding: 15px 15px;
+        h1 {
+            text-align: center;
+            color: white;
         }
 
-        #nav{
-        position: sticky;
-        bottom: 0;
-        color: #5e90d6;
-        background-color: #5e90d6;
-        border: 2px solid goldenrod;
-        align-items: center;
+        h2 {
+            text-align: center;
+            color: white
         }
 
-        .navbar-top{
-        position: sticky;
-        top: 0;
-        color: black;
-        background-color: #5e90d6;
-        border: 2px solid goldenrod;
-        align-items: center;
+        p {
+            text-align: center;
+            color: white;
         }
 
-        .profile-text{
+        #logo {
+            font-size: 20px;
+            font-weight: bold;
+            float: left;
+            padding: 15px 15px;
+        }
+
+        #nav {
+            position: sticky;
+            bottom: 0;
+            color: #5e90d6;
+            background-color: #5e90d6;
+            border: 2px solid goldenrod;
+            align-items: center;
+        }
+
+        .navbar-top {
+            position: sticky;
+            top: 0;
+            color: black;
+            background-color: #5e90d6;
+            border: 2px solid goldenrod;
+            align-items: center;
+        }
+
+        .profile-text {
             padding-top: 100px;
         }
 
-        nav ul{
+        nav ul {
             list-style: none;
-            padding:0;
+            padding: 0;
             position: sticky;
             bottom: 0;
             align-items: center;
         }
 
-        nav ul li a{
-            color:#ddd;
+        nav ul li a {
+            color: #ddd;
             text-decoration: none;
             padding: .8rem 1rem;
             display: block;
@@ -76,26 +91,31 @@
             text-align: center;
             border-color: goldenrod;
         }
-        nav ul li{
+
+        nav ul li {
             border-bottom: 1px dotted #ddd;
         }
+
         /*styling logo*/
 
-        nav div:first-child{
-            background:#5e90d6;
+        nav div:first-child {
+            background: #5e90d6;
             border-color: goldenrod;
         }
-        nav div:first-child h1{
+
+        nav div:first-child h1 {
             line-height: 0;
             padding: .8rem 0rem;
             text-align: center;
         }
-        nav div:first-child img{
+
+        nav div:first-child img {
             filter: contrast(0);
         }
 
-        nav div:first-child h1, nav ul{
-            margin:0;
+        nav div:first-child h1,
+        nav ul {
+            margin: 0;
         }
 
         .skillsSection {
@@ -112,7 +132,7 @@
             border-right: 1.5px solid #010101;
             width: 50%;
         }
-        
+
         .tools {
             border-left: 1.5px solid #010101;
             width: 50%;
@@ -177,14 +197,14 @@
             margin: 10% auto;
         }
 
-        .section-title{
+        .section-title {
             color: #5e90d6;
         }
 
         /*Styling for larger devices*/
 
-        @media only screen and (min-width: 30em){
-            #nav{
+        @media only screen and (min-width: 30em) {
+            #nav {
                 display: flex;
                 justify-content: space-between;
                 background-color: #5e90d6;
@@ -192,8 +212,8 @@
                 align-items: center;
                 position: sticky;
             }
-            
-            .navbar-top{
+
+            .navbar-top {
                 position: sticky;
                 top: 0;
                 color: black;
@@ -202,64 +222,79 @@
                 align-items: center;
             }
 
-            nav ul{
+            nav ul {
                 display: flex;
                 align-items: center;
-                background:none;
+                background: none;
                 flex-wrap: wrap;
             }
-            nav div:first-child h1{
+
+            nav div:first-child h1 {
                 padding: 0;
-                margin:0 1rem;
+                margin: 0 1rem;
             }
-            nav div:first-child img{
+
+            nav div:first-child img {
                 height: 40px;
-                
+
             }
-            nav ul li{
-                border-bottom:none;
+
+            nav ul li {
+                border-bottom: none;
                 flex: 1 0 auto;
                 position: relative;
             }
-            nav ul li a{
-                padding:1.2rem 1rem;
+
+            nav ul li a {
+                padding: 1.2rem 1rem;
             }
-            nav ul li a::before, nav ul li a::after{
+
+            nav ul li a::before,
+            nav ul li a::after {
                 content: "";
                 position: absolute;
-                bottom:0;
+                bottom: 0;
                 right: 0;
-                width:0%;
+                width: 0%;
                 height: 2px;
-                background:goldenrod;
+                background: goldenrod;
                 transition: .2s width ease-in-out;
             }
-            
-            nav ul li a::before{
-                left:0;
-            }
-            
-            nav ul li a:hover::after,nav ul li a:hover::before{
-                width: 50%;
-            } 
-        
-        }
 
+            nav ul li a::before {
+                left: 0;
+            }
+
+            nav ul li a:hover::after,
+            nav ul li a:hover::before {
+                width: 50%;
+            }
+
+        }
     </style>
-    </head>
+</head>
+
 <body>
+    <div id="app">
+        <div class="container">
+            <header>
+                <header>
+        </div>
+    </div>
     <Header id="home" class="hero" style="background-color: #5e90d6">
         <div class="hero-body">
             <div class="hero-text text-center">
-            <h1><strong>Lawrence Paine</strong></h1>
-            <h2 style="text-transform: uppercase; padding-top: 40px;"><div><strong>Website and Software</strong> Developer</div></h2>
-            <p class="uppercase" style="padding-top: 10px">Beverley, England</p>
-            <a href="#about" class="btn btn-lg btn-custom" style="color:goldenrod; border-color:goldenrod; background-color:white">
-                    Know Me Better 
-            </a>
-        </div>
+                <h1><strong>Lawrence Paine</strong></h1>
+                <h2 style="text-transform: uppercase; padding-top: 40px;">
+                    <div><strong>Website and Software</strong> Developer</div>
+                </h2>
+                <p class="uppercase" style="padding-top: 10px">Beverley, England</p>
+                <a href="#about" class="btn btn-lg btn-custom" style="color:goldenrod; border-color:goldenrod; background-color:white">
+                    Know Me Better
+                </a>
+            </div>
     </header>
-   
+
 
     <!-- about SECTION START -->
     <section id="about" class="section" style="text-align:center; background-color: white; border-color:goldenrod">
@@ -287,7 +322,7 @@
         <!-- skills sections -->
     </section>
 
-        <!-- skills SECTION START -->
+    <!-- skills SECTION START -->
     <section id="skills" class="skillsSection">
         <div class="skills">
             <h2>skills<i class="fas fa-laptop-code"></i></h2>
@@ -309,7 +344,7 @@
         </div>
     </section>
 
-            <!-- skills SECTION START -->
+    <!-- skills SECTION START -->
     <section id="portfolio" class="portfolioSection">
         <div class="portfolio">
             <h2 style="color: #5e90d6">portfolio<i class="fas fa-laptop-code"></i></h2>
@@ -322,12 +357,12 @@
 
     <!-- contact SECTION START -->
     <section id="contact" class="section" style="background-color:#5e90d6; border-color:goldenrod">
-    <div class="container section-wrapper">
+        <div class="container section-wrapper">
             <div class="section-content">
                 <div class="row">
                     <div class="hero-body">
                         <div class="hero-text text-center" style="height: 250px">
-                        <div class="contact-details">
+                            <div class="contact-details">
                                 <h4 style="padding-top: 10px; font-weight: bold;">Contact Details</h4>
                                 <ul class="list-unstyled text-grey">
                                     <li>Lawrence Paine</li>
@@ -339,13 +374,13 @@
                             </div>
                         </div>
                         <div class="socials">
-                        <div class="socialIcons">
-                        <img src=https://img.icons8.com/color/144/000000/linkedin.png alt="LinkedIn" title="LinkedIn">
-                        <img src="https://img.icons8.com/color/144/000000/twitter.png" alt="Twitter" data-title="Twitter">
+                            <div class="socialIcons">
+                                <img src=https://img.icons8.com/color/144/000000/linkedin.png alt="LinkedIn" title="LinkedIn">
+                                <img src="https://img.icons8.com/color/144/000000/twitter.png" alt="Twitter" data-title="Twitter">
+                            </div>
                         </div>
                     </div>
-                    </div>
-                    
+
                 </div>
                 <!-- //.row -->
             </div>
@@ -353,9 +388,10 @@
         </div>
     </section>
     <script src="{{ asset('Utilities/navscroll.js') }}" defer></script>
+    <script src="{{ asset('js/app.js')}}"></script>
 </body>
 <!-- @section('content') -->
-    
+
 
 <nav id="nav" style="position: sticky" class="nav">
     <ul>
@@ -366,6 +402,7 @@
         <li class="page-scroll active"><a href="#achievements">Achievements</a></li>
         <li class="page-scroll active"><a href="#contact">Contact</a></li>
     </ul>
-<script src="{{ asset('Utilities/navscroll.js') }}" defer></script>
+    <script src="{{ asset('Utilities/navscroll.js') }}" defer></script>
 </nav>
+
 </html>
