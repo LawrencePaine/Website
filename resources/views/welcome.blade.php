@@ -37,12 +37,22 @@
         padding: 15px 15px;
         }
 
-        nav{
+        #nav{
         position: sticky;
         bottom: 0;
-        border-color: goldenrod;
         color: #5e90d6;
-        background:black;
+        background-color: #5e90d6;
+        border: 2px solid goldenrod;
+        align-items: center;
+        }
+
+        .navbar-top{
+        position: sticky;
+        top: 0;
+        color: black;
+        background-color: #5e90d6;
+        border: 2px solid goldenrod;
+        align-items: center;
         }
 
         .profile-text{
@@ -52,10 +62,9 @@
         nav ul{
             list-style: none;
             padding:0;
-            background:black;
-            border-color: goldenrod;
             position: sticky;
             bottom: 0;
+            align-items: center;
         }
 
         nav ul li a{
@@ -175,16 +184,24 @@
         /*Styling for larger devices*/
 
         @media only screen and (min-width: 30em){
-            nav{
+            #nav{
                 display: flex;
                 justify-content: space-between;
-                background:black;
-                border-width: 5px;
-                border-color: #DAA520;
+                background-color: #5e90d6;
+                border: 2px solid goldenrod;
                 align-items: center;
                 position: sticky;
             }
             
+            .navbar-top{
+                position: sticky;
+                top: 0;
+                color: black;
+                background-color: #5e90d6;
+                border: 2px solid goldenrod;
+                align-items: center;
+            }
+
             nav ul{
                 display: flex;
                 align-items: center;
@@ -230,7 +247,7 @@
 
     </style>
     </head>
-    <body>
+<body>
     <Header id="home" class="hero" style="background-color: #5e90d6">
         <div class="hero-body">
             <div class="hero-text text-center">
@@ -278,6 +295,7 @@
                 <img src="https://d33wubrfki0l68.cloudfront.net/a0b457393dccfdd658d709b890a3fddd4ef5756c/e0e04/images/html-5.png" alt="HTML5" title="HTML">
                 <img src="https://img.icons8.com/color/96/000000/css3.png" alt="CSS3" title="CSS">
                 <img src="https://d33wubrfki0l68.cloudfront.net/e336e2d67b2b7ee10a5eda0a7f8774919d415b3b/195fb/images/javascript.svg" alt="Javascript" title="Javascript">
+                <img src="https://d33wubrfki0l68.cloudfront.net/e336e2d67b2b7ee10a5eda0a7f8774919d415b3b/195fb/images/javascript.svg" alt="Vue.js" title="Vue.js">
                 <img src="https://d33wubrfki0l68.cloudfront.net/b07d9965cb676ba5e2ec0f07920649daad9017fa/44776/images/bootstrap.svg" alt="Bootstrap" title="Bootstrap">
             </div>
         </div>
@@ -334,17 +352,20 @@
             <!-- //.section-content -->
         </div>
     </section>
+    <script src="{{ asset('Utilities/navscroll.js') }}" defer></script>
 </body>
 <!-- @section('content') -->
     
-<nav style="position: sticky">
+
+<nav id="nav" style="position: sticky" class="nav">
     <ul>
         <li class="page-scroll active"><a href="#home">Home</a></li>
-        <li class="page-scroll"><a href="#about">about</a></li>
-        <li class="page-scroll"><a href="#skills">skills</a></li>
-        <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
-        <li class="page-scroll"><a href="#achievements">Achievements</a></li>
-        <li class="page-scroll"><a href="#contact">Contact</a></li>
+        <li class="page-scroll active"><a href="#about">about</a></li>
+        <li class="page-scroll active"><a href="#skills">skills</a></li>
+        <li class="page-scroll active"><a href="#portfolio">Portfolio</a></li>
+        <li class="page-scroll active"><a href="#achievements">Achievements</a></li>
+        <li class="page-scroll active"><a href="#contact">Contact</a></li>
     </ul>
+<script src="{{ asset('Utilities/navscroll.js') }}" defer></script>
 </nav>
 </html>
