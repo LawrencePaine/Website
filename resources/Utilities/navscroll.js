@@ -30,7 +30,7 @@ $(function () {
     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
   });
 });
-
+v 
 var myNav = document.getElementById('mynav');
 window.onscroll = function () { 
     "use strict";
@@ -43,3 +43,5 @@ window.onscroll = function () {
         myNav.classList.remove("nav-colored");
     }
 };
+
+export default NavScroll

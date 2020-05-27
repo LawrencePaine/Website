@@ -5,11 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <script>
-        window.Laravel = {
-            csrfToken: '{{ csrf_token() }}'
-        }
-    </script>
+    <script>window.Laravel = {csrfToken: '{{ csrf_token() }}'}</script>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     <link href="/css/app.css" rel="stylesheet">
@@ -276,9 +272,10 @@
 
 <body>
     <div id="app">
+        <navbar></navbar>
+        <script src="{{ asset('Utilities/navscroll.js') }}" defer></script>
         <div class="container">
-            <header>
-                <header>
+            <header></header>
         </div>
     </div>
     <Header id="home" class="hero" style="background-color: #5e90d6">
@@ -392,8 +389,7 @@
 </body>
 <!-- @section('content') -->
 
-
-<nav id="nav" style="position: sticky" class="nav">
+<!-- <nav id="nav" style="position: sticky" class="nav">
     <ul>
         <li class="page-scroll active"><a href="#home">Home</a></li>
         <li class="page-scroll active"><a href="#about">about</a></li>
@@ -403,6 +399,6 @@
         <li class="page-scroll active"><a href="#contact">Contact</a></li>
     </ul>
     <script src="{{ asset('Utilities/navscroll.js') }}" defer></script>
-</nav>
+</nav> -->
 
 </html>

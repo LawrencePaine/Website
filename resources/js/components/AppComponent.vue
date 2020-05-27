@@ -1,23 +1,39 @@
 <template>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="card">
-                    <div class="card-header">Example Component</div>
-
-                    <div class="card-body">
-                        I'm an example component.
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div id="example-1">
+        <button v-on:click="counter += 1">Add 1</button>
+        <p>The button above has been clicked {{ counter }} times.</p>
     </div>
 </template>
 
 <script>
-export default {
-    mounted() {
-        console.log("Component mounted.");
+    export default {
+
     }
-};
+        export default {
+        mounted() {
+            console.log('Component mounted.')
+        }
+    }
+    import debounce from 'lodash/debounce';
+    
+    export default {
+    // methods: {
+    // handleScroll(event) {
+    //     // Any code to be executed when the window is scrolled
+    //     this.isUserScrolling = (window.scrollY > 0);
+    //     console.log('calling handleScroll');
+    // }
+    // },
+
+    // created() {
+    // this.handleDebouncedScroll = debounce(this.handleScroll, 100);
+    // window.addEventListener('scroll', this.handleDebouncedScroll);
+    // },
+
+    // beforeDestroy() {
+    // // I switched the example from `destroyed` to `beforeDestroy`
+    // // to exercise your mind a bit. This lifecycle method works too.
+    // window.removeEventListener('scroll', this.handleDebouncedScroll);
+    // }
+    }
 </script>
