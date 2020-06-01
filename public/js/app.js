@@ -1904,9 +1904,34 @@ module.exports = {
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/AppComponent.vue?vue&type=script&lang=js& ***!
   \***********************************************************************************************************************************************************************/
 /*! exports provided: default */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\lpain\\Website\\resources\\js\\components\\AppComponent.vue: Only one default export allowed per module. (12:4)\n\n\u001b[0m \u001b[90m 10 | \u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 | \u001b[39m}\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 12 | \u001b[39m    \u001b[36mexport\u001b[39m \u001b[36mdefault\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 13 | \u001b[39m    mounted() {\u001b[0m\n\u001b[0m \u001b[90m 14 | \u001b[39m        console\u001b[33m.\u001b[39mlog(\u001b[32m'Component mounted.'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m 15 | \u001b[39m    }\u001b[0m\n    at Parser._raise (C:\\Users\\lpain\\Website\\node_modules\\@babel\\parser\\lib\\index.js:742:17)\n    at Parser.raiseWithData (C:\\Users\\lpain\\Website\\node_modules\\@babel\\parser\\lib\\index.js:735:17)\n    at Parser.raise (C:\\Users\\lpain\\Website\\node_modules\\@babel\\parser\\lib\\index.js:729:17)\n    at Parser.checkDuplicateExports (C:\\Users\\lpain\\Website\\node_modules\\@babel\\parser\\lib\\index.js:12405:12)\n    at Parser.checkExport (C:\\Users\\lpain\\Website\\node_modules\\@babel\\parser\\lib\\index.js:12340:14)\n    at Parser.parseExport (C:\\Users\\lpain\\Website\\node_modules\\@babel\\parser\\lib\\index.js:12186:12)\n    at Parser.parseStatementContent (C:\\Users\\lpain\\Website\\node_modules\\@babel\\parser\\lib\\index.js:11185:27)\n    at Parser.parseStatement (C:\\Users\\lpain\\Website\\node_modules\\@babel\\parser\\lib\\index.js:11081:17)\n    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\lpain\\Website\\node_modules\\@babel\\parser\\lib\\index.js:11656:25)\n    at Parser.parseBlockBody (C:\\Users\\lpain\\Website\\node_modules\\@babel\\parser\\lib\\index.js:11642:10)\n    at Parser.parseTopLevel (C:\\Users\\lpain\\Website\\node_modules\\@babel\\parser\\lib\\index.js:11012:10)\n    at Parser.parse (C:\\Users\\lpain\\Website\\node_modules\\@babel\\parser\\lib\\index.js:12637:10)\n    at parse (C:\\Users\\lpain\\Website\\node_modules\\@babel\\parser\\lib\\index.js:12688:38)\n    at parser (C:\\Users\\lpain\\Website\\node_modules\\@babel\\core\\lib\\parser\\index.js:54:34)\n    at parser.next (<anonymous>)\n    at normalizeFile (C:\\Users\\lpain\\Website\\node_modules\\@babel\\core\\lib\\transformation\\normalize-file.js:93:38)\n    at normalizeFile.next (<anonymous>)\n    at run (C:\\Users\\lpain\\Website\\node_modules\\@babel\\core\\lib\\transformation\\index.js:31:50)\n    at run.next (<anonymous>)\n    at Function.transform (C:\\Users\\lpain\\Website\\node_modules\\@babel\\core\\lib\\transform.js:27:41)\n    at transform.next (<anonymous>)\n    at step (C:\\Users\\lpain\\Website\\node_modules\\gensync\\index.js:254:32)\n    at C:\\Users\\lpain\\Website\\node_modules\\gensync\\index.js:266:13\n    at async.call.result.err.err (C:\\Users\\lpain\\Website\\node_modules\\gensync\\index.js:216:11)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({// methods: {
+  // handleScroll(event) {
+  //     // Any code to be executed when the window is scrolled
+  //     this.isUserScrolling = (window.scrollY > 0);
+  //     console.log('calling handleScroll');
+  // }
+  // },
+  // created() {
+  // this.handleDebouncedScroll = debounce(this.handleScroll, 100);
+  // window.addEventListener('scroll', this.handleDebouncedScroll);
+  // },
+  // beforeDestroy() {
+  // // I switched the example from `destroyed` to `beforeDestroy`
+  // // to exercise your mind a bit. This lifecycle method works too.
+  // window.removeEventListener('scroll', this.handleDebouncedScroll);
+  // }
+});
 
 /***/ }),
 
@@ -1919,7 +1944,6 @@ throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
 //
 //
 //
@@ -6491,7 +6515,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.navbar {\n    position: -webkit-sticky;\n    position: sticky;\n    bottom: 0;\n    color: #5e90d6;\n    background-color: #5e90d6;\n    border: 2px solid goldenrod;\n    align-items: center;\n}\n.navbar-top {\n    position: -webkit-sticky;\n    position: sticky;\n    top: 0;\n    color: black;\n    background-color: #5e90d6;\n    border: 2px solid goldenrod;\n    align-items: center;\n}\n", ""]);
+exports.push([module.i, "\n#Navbar {\n    position: -webkit-sticky;\n    position: sticky;\n    bottom: 0;\n    color: #5e90d6;\n    background-color: #5e90d6;\n    border: 2px solid goldenrod;\n    align-items: center;\n}\n.navbar-top {\n    position: -webkit-sticky;\n    position: sticky;\n    top: 0;\n    color: black;\n    background-color: #5e90d6;\n    border: 2px solid goldenrod;\n    align-items: center;\n}\n", ""]);
 
 // exports
 
@@ -38014,11 +38038,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c(
       "nav",
-      {
-        staticClass: "navbar",
-        staticStyle: { position: "sticky" },
-        attrs: { id: "nav" }
-      },
+      { staticClass: "Navbar", staticStyle: { position: "sticky" } },
       [
         _c("ul", [
           _c("li", { staticClass: "page-scroll active" }, [
@@ -50281,14 +50301,15 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*!**************************************************!*\
   !*** ./resources/js/components/AppComponent.vue ***!
   \**************************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _AppComponent_vue_vue_type_template_id_cd268472___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AppComponent.vue?vue&type=template&id=cd268472& */ "./resources/js/components/AppComponent.vue?vue&type=template&id=cd268472&");
 /* harmony import */ var _AppComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AppComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/AppComponent.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _AppComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _AppComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -50318,7 +50339,7 @@ component.options.__file = "resources/js/components/AppComponent.vue"
 /*!***************************************************************************!*\
   !*** ./resources/js/components/AppComponent.vue?vue&type=script&lang=js& ***!
   \***************************************************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

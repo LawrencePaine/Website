@@ -1,15 +1,14 @@
 <template>
-    <nav id="nav" style="position: sticky" class="navbar">
-    <ul>
-        <li class="page-scroll active"><a href="#home">Home</a></li>
-        <li class="page-scroll active"><a href="#about">about</a></li>
-        <li class="page-scroll active"><a href="#skills">skills</a></li>
-        <li class="page-scroll active"><a href="#portfolio">Portfolio</a></li>
-        <li class="page-scroll active"><a href="#achievements">Achievements</a></li>
-        <li class="page-scroll active"><a href="#contact">Contact</a></li>
-    </ul>
-  
-</nav>
+    <nav class="Navbar" style="position: sticky" >
+        <ul>
+            <li class="page-scroll active"><a href="#home">Home</a></li>
+            <li class="page-scroll active"><a href="#about">about</a></li>
+            <li class="page-scroll active"><a href="#skills">skills</a></li>
+            <li class="page-scroll active"><a href="#portfolio">Portfolio</a></li>
+            <li class="page-scroll active"><a href="#achievements">Achievements</a></li>
+            <li class="page-scroll active"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 </template>
 
 <script>
@@ -29,7 +28,7 @@ export default {
 </script>
 
 <style>
-        .navbar {
+        #Navbar {
             position: sticky;
             bottom: 0;
             color: #5e90d6;
