@@ -28,7 +28,7 @@ export default {
 </script>
 
 <style>
-        Navbar {
+        #Navbar {
             position: sticky;
             bottom: 0;
             color: #5e90d6;
