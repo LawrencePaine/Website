@@ -1,5 +1,5 @@
 <template>
-    <nav class="Navbar" style="position: sticky" >
+    <nav class="Navbar" >
         <ul>
             <li class="page-scroll active"><a href="#home">Home</a></li>
             <li class="page-scroll active"><a href="#about">about</a></li>
@@ -28,7 +28,7 @@ export default {
 </script>
 
 <style>
-        #Navbar {
+        Navbar {
             position: sticky;
             bottom: 0;
             color: #5e90d6;

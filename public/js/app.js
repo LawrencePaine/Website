@@ -6515,7 +6515,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#Navbar {\n    position: -webkit-sticky;\n    position: sticky;\n    bottom: 0;\n    color: #5e90d6;\n    background-color: #5e90d6;\n    border: 2px solid goldenrod;\n    align-items: center;\n}\n.navbar-top {\n    position: -webkit-sticky;\n    position: sticky;\n    top: 0;\n    color: black;\n    background-color: #5e90d6;\n    border: 2px solid goldenrod;\n    align-items: center;\n}\n", ""]);
+exports.push([module.i, "\nNavbar {\n    position: -webkit-sticky;\n    position: sticky;\n    bottom: 0;\n    color: #5e90d6;\n    background-color: #5e90d6;\n    border: 2px solid goldenrod;\n    align-items: center;\n}\n.navbar-top {\n    position: -webkit-sticky;\n    position: sticky;\n    top: 0;\n    color: black;\n    background-color: #5e90d6;\n    border: 2px solid goldenrod;\n    align-items: center;\n}\n", ""]);
 
 // exports
 
@@ -38036,39 +38036,35 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "nav",
-      { staticClass: "Navbar", staticStyle: { position: "sticky" } },
-      [
-        _c("ul", [
-          _c("li", { staticClass: "page-scroll active" }, [
-            _c("a", { attrs: { href: "#home" } }, [_vm._v("Home")])
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "page-scroll active" }, [
-            _c("a", { attrs: { href: "#about" } }, [_vm._v("about")])
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "page-scroll active" }, [
-            _c("a", { attrs: { href: "#skills" } }, [_vm._v("skills")])
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "page-scroll active" }, [
-            _c("a", { attrs: { href: "#portfolio" } }, [_vm._v("Portfolio")])
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "page-scroll active" }, [
-            _c("a", { attrs: { href: "#achievements" } }, [
-              _vm._v("Achievements")
-            ])
-          ]),
-          _vm._v(" "),
-          _c("li", { staticClass: "page-scroll active" }, [
-            _c("a", { attrs: { href: "#contact" } }, [_vm._v("Contact")])
+    return _c("nav", { staticClass: "Navbar" }, [
+      _c("ul", [
+        _c("li", { staticClass: "page-scroll active" }, [
+          _c("a", { attrs: { href: "#home" } }, [_vm._v("Home")])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "page-scroll active" }, [
+          _c("a", { attrs: { href: "#about" } }, [_vm._v("about")])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "page-scroll active" }, [
+          _c("a", { attrs: { href: "#skills" } }, [_vm._v("skills")])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "page-scroll active" }, [
+          _c("a", { attrs: { href: "#portfolio" } }, [_vm._v("Portfolio")])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "page-scroll active" }, [
+          _c("a", { attrs: { href: "#achievements" } }, [
+            _vm._v("Achievements")
           ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "page-scroll active" }, [
+          _c("a", { attrs: { href: "#contact" } }, [_vm._v("Contact")])
         ])
-      ]
-    )
+      ])
+    ])
   }
 ]
 render._withStripped = true
@@ -50301,15 +50297,14 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*!**************************************************!*\
   !*** ./resources/js/components/AppComponent.vue ***!
   \**************************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _AppComponent_vue_vue_type_template_id_cd268472___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AppComponent.vue?vue&type=template&id=cd268472& */ "./resources/js/components/AppComponent.vue?vue&type=template&id=cd268472&");
 /* harmony import */ var _AppComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AppComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/AppComponent.vue?vue&type=script&lang=js&");
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _AppComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _AppComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -50339,7 +50334,7 @@ component.options.__file = "resources/js/components/AppComponent.vue"
 /*!***************************************************************************!*\
   !*** ./resources/js/components/AppComponent.vue?vue&type=script&lang=js& ***!
   \***************************************************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
