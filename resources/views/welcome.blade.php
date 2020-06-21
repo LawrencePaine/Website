@@ -9,6 +9,7 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     <link href="/css/app.css" rel="stylesheet">
+    <!-- <link href="/css/main.css" rel="stylesheet"> -->
     <!-- Styles -->
     <style>
         body,
@@ -291,7 +292,6 @@
                 </a>
             </div>
     </header>
-
 
     <!-- about SECTION START -->
     <section id="about" class="section" style="text-align:center; background-color: white; border-color:goldenrod">

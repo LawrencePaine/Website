@@ -6,3 +6,268 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+body,
+html {
+    font-size: 100%;
+    font-family: "Helvetica", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #636b6f;
+    text-align: center;
+}
+
+main {
+    height: 1000px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: white
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+#logo {
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    padding: 15px 15px;
+}
+
+#nav {
+    position: sticky;
+    bottom: 0;
+    color: #5e90d6;
+    background-color: #5e90d6;
+    border: 2px solid goldenrod;
+    align-items: center;
+}
+
+.navbar {  
+position: sticky;
+bottom: 0;
+color: #5e90d6;
+background-color: #5e90d6;
+border: 2px solid goldenrod;
+align-items: center;
+}
+.navbar-top {
+    position: sticky;
+    top: 0;
+    color: black;
+    background-color: #5e90d6;
+    border: 2px solid goldenrod;
+    align-items: center;
+}
+
+.profile-text {
+    padding-top: 100px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    position: sticky;
+    bottom: 0;
+    align-items: center;
+}
+
+nav ul li a {
+    color: #ddd;
+    text-decoration: none;
+    padding: .8rem 1rem;
+    display: block;
+    line-height: 1;
+    text-align: center;
+    border-color: goldenrod;
+}
+
+nav ul li {
+    border-bottom: 1px dotted #ddd;
+}
+
+/*styling logo*/
+
+nav div:first-child {
+    background: #5e90d6;
+    border-color: goldenrod;
+}
+
+nav div:first-child h1 {
+    line-height: 0;
+    padding: .8rem 0rem;
+    text-align: center;
+}
+
+nav div:first-child img {
+    filter: contrast(0);
+}
+
+nav div:first-child h1,
+nav ul {
+    margin: 0;
+}
+
+.skillsSection {
+    display: flex;
+    background-color: #242629;
+    border-bottom: 3px solid #010101;
+    border-top: 3px solid #010101;
+    position: relative;
+    z-index: 3;
+    margin-top: 50px;
+}
+
+.skills {
+    border-right: 1.5px solid #010101;
+    width: 50%;
+}
+
+.tools {
+    border-left: 1.5px solid #010101;
+    width: 50%;
+}
+
+.socials {
+    border-right: 1.5px solid #010101;
+    width: 50%;
+}
+
+.skills img {
+    vertical-align: middle;
+    border-style: none;
+    width: 11%;
+    max-width: 130px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #010101;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+}
+
+.tools img {
+    vertical-align: middle;
+    border-style: none;
+    width: 11%;
+    max-width: 130px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #010101;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+}
+
+.socials img {
+    vertical-align: middle;
+    border-style: none;
+    width: 11%;
+    max-width: 130px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #010101;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+}
+
+.Icons {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10%;
+    width: 60%;
+    min-width: 500px;
+    margin: 10% auto;
+}
+
+.section-title {
+    color: #5e90d6;
+}
+
+/*Styling for larger devices*/
+
+@media only screen and (min-width: 30em) {
+    #nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: #5e90d6;
+        border: 2px solid goldenrod;
+        align-items: center;
+        position: sticky;
+    }
+
+    .navbar-top {
+        position: sticky;
+        top: 0;
+        color: black;
+        background-color: #5e90d6;
+        border: 2px solid goldenrod;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        background: none;
+        flex-wrap: wrap;
+    }
+
+    nav div:first-child h1 {
+        padding: 0;
+        margin: 0 1rem;
+    }
+
+    nav div:first-child img {
+        height: 40px;
+
+    }
+
+    nav ul li {
+        border-bottom: none;
+        flex: 1 0 auto;
+        position: relative;
+    }
+
+    nav ul li a {
+        padding: 1.2rem 1rem;
+    }
+
+    nav ul li a::before,
+    nav ul li a::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 0%;
+        height: 2px;
+        background: goldenrod;
+        transition: .2s width ease-in-out;
+    }
+
+    nav ul li a::before {
+        left: 0;
+    }
+
+    nav ul li a:hover::after,
+    nav ul li a:hover::before {
+        width: 50%;
+    }
+
+}

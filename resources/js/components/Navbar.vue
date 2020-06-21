@@ -1,5 +1,5 @@
 <template>
-    <nav class="Navbar" >
+    <nav class="navbar" >
         <ul>
             <li class="page-scroll active"><a href="#home">Home</a></li>
             <li class="page-scroll active"><a href="#about">about</a></li>
@@ -27,11 +27,12 @@ export default {
 }
 </script>
 
-<style>
-        #Navbar {
+<style language="scss">
+        #navbar {
             position: sticky;
             bottom: 0;
-            color: #5e90d6;
+            /* color: #5e90d6; */
+            color:#002c6a;
             background-color: #5e90d6;
             border: 2px solid goldenrod;
             align-items: center;
@@ -40,7 +41,8 @@ export default {
             position: sticky;
             top: 0;
             color: black;
-            background-color: #5e90d6;
+            /* background-color: #5e90d6; */
+            color:#002c6a;
             border: 2px solid goldenrod;
             align-items: center;
         }
