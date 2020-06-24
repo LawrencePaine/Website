@@ -31,9 +31,18 @@ export default {
         #navbar {
             position: sticky;
             bottom: 0;
-            /* color: #5e90d6; */
+            /* color: #002c6a; */
             color:#002c6a;
-            background-color: #5e90d6;
+            background-color: #002c6a;
+            border: 2px solid goldenrod;
+            align-items: center;
+        }
+        .navbar {
+            position: sticky;
+            bottom: 0;
+            /* color: #002c6a; */
+            color:#002c6a;
+            background-color: #002c6a;
             border: 2px solid goldenrod;
             align-items: center;
         }
@@ -41,7 +50,7 @@ export default {
             position: sticky;
             top: 0;
             color: black;
-            /* background-color: #5e90d6; */
+            /* background-color: #002c6a; */
             color:#002c6a;
             border: 2px solid goldenrod;
             align-items: center;

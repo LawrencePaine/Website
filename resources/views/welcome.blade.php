@@ -272,13 +272,6 @@
 </head>
 
 <body>
-    <div id="app">
-        <navbar></navbar>
-        <script src="{{ asset('Utilities/navscroll.js') }}" defer></script>
-        <div class="container">
-            <header></header>
-        </div>
-    </div>
     <Header id="home" class="hero" style="background-color: #5e90d6">
         <div class="hero-body">
             <div class="hero-text text-center">
@@ -298,7 +291,7 @@
         <div class="container section-wrapper">
             <div class="section-content" style="border-color: #DAA520">
                 <div class="row">
-                    <div class="col-md-7 match-height" style="height: 490px;">
+                    <div class="col-md-7 match-height" style="height: 430px;">
                         <!-- PROFILE TEXT START -->
                         <div class="profile-text padding-right-yes">
                             <div class="row">
@@ -318,6 +311,14 @@
         <!-- //.container -->
         <!-- skills sections -->
     </section>
+
+    <div id="app">
+        <navbar></navbar>
+        <script src="{{ asset('Utilities/navscroll.js') }}" defer></script>
+        <div class="container">
+            <header></header>
+        </div>
+    </div>
 
     <!-- skills SECTION START -->
     <section id="skills" class="skillsSection">

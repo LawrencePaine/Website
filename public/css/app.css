@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@charset "UTF-8";
 
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
@@ -10923,8 +10923,8 @@ p {
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
-  color: #5e90d6;
-  background-color: #5e90d6;
+  color: #002c6a;
+  background-color: #002c6a;
   border: 2px solid goldenrod;
   align-items: center;
 }
@@ -10933,8 +10933,8 @@ p {
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
-  color: #5e90d6;
-  background-color: #5e90d6;
+  color: #002c6a;
+  background-color: #002c6a;
   border: 2px solid goldenrod;
   align-items: center;
 }
@@ -10944,7 +10944,7 @@ p {
   position: sticky;
   top: 0;
   color: black;
-  background-color: #5e90d6;
+  background-color: #002c6a;
   border: 2px solid goldenrod;
   align-items: center;
 }
@@ -10979,7 +10979,7 @@ nav ul li {
 /*styling logo*/
 
 nav div:first-child {
-  background: #5e90d6;
+  background: #002c6a;
   border-color: goldenrod;
 }
 
@@ -11079,7 +11079,7 @@ nav ul {
 }
 
 .section-title {
-  color: #5e90d6;
+  color: #002c6a;
 }
 
 /*Styling for larger devices*/
@@ -11088,7 +11088,7 @@ nav ul {
   #nav {
     display: flex;
     justify-content: space-between;
-    background-color: #5e90d6;
+    background-color: #002c6a;
     border: 2px solid goldenrod;
     align-items: center;
     position: -webkit-sticky;
@@ -11100,7 +11100,7 @@ nav ul {
     position: sticky;
     top: 0;
     color: black;
-    background-color: #5e90d6;
+    background-color: #002c6a;
     border: 2px solid goldenrod;
     align-items: center;
   }

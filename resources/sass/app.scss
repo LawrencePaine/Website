@@ -1,6 +1,4 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
 // Variables
 @import 'variables';
 
@@ -47,8 +45,8 @@ p {
 #nav {
     position: sticky;
     bottom: 0;
-    color: #5e90d6;
-    background-color: #5e90d6;
+    color:#002c6a;
+    background-color: #002c6a;
     border: 2px solid goldenrod;
     align-items: center;
 }
@@ -56,8 +54,9 @@ p {
 .navbar {  
 position: sticky;
 bottom: 0;
-color: #5e90d6;
-background-color: #5e90d6;
+// color: #002c6a;
+color:#002c6a;
+background-color: #002c6a;
 border: 2px solid goldenrod;
 align-items: center;
 }
@@ -65,7 +64,7 @@ align-items: center;
     position: sticky;
     top: 0;
     color: black;
-    background-color: #5e90d6;
+    background-color: #002c6a;
     border: 2px solid goldenrod;
     align-items: center;
 }
@@ -99,7 +98,7 @@ nav ul li {
 /*styling logo*/
 
 nav div:first-child {
-    background: #5e90d6;
+    background: #002c6a;
     border-color: goldenrod;
 }
 
@@ -198,7 +197,7 @@ nav ul {
 }
 
 .section-title {
-    color: #5e90d6;
+    color: #002c6a;
 }
 
 /*Styling for larger devices*/
@@ -207,7 +206,7 @@ nav ul {
     #nav {
         display: flex;
         justify-content: space-between;
-        background-color: #5e90d6;
+        background-color: #002c6a;
         border: 2px solid goldenrod;
         align-items: center;
         position: sticky;
@@ -217,7 +216,7 @@ nav ul {
         position: sticky;
         top: 0;
         color: black;
-        background-color: #5e90d6;
+        background-color: #002c6a;
         border: 2px solid goldenrod;
         align-items: center;
     }
