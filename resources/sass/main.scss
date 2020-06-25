@@ -20,7 +20,7 @@ h1 {
 
 h2 {
     text-align: center;
-    color: white
+    color: white;
 }
 
 p {
@@ -68,7 +68,7 @@ nav ul {
 nav ul li a {
     color: #ddd;
     text-decoration: none;
-    padding: .8rem 1rem;
+    padding: 0.8rem 1rem;
     display: block;
     line-height: 1;
     text-align: center;
@@ -88,7 +88,7 @@ nav div:first-child {
 
 nav div:first-child h1 {
     line-height: 0;
-    padding: .8rem 0rem;
+    padding: 0.8rem 0rem;
     text-align: center;
 }
 
@@ -219,7 +219,6 @@ nav ul {
 
     nav div:first-child img {
         height: 40px;
-
     }
 
     nav ul li {
@@ -241,7 +240,7 @@ nav ul {
         width: 0%;
         height: 2px;
         background: goldenrod;
-        transition: .2s width ease-in-out;
+        transition: 0.2s width ease-in-out;
     }
 
     nav ul li a::before {
@@ -252,5 +251,4 @@ nav ul {
     nav ul li a:hover::before {
         width: 50%;
     }
-
 }

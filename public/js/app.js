@@ -6515,7 +6515,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#navbar {\n    position: -webkit-sticky;\n    position: sticky;\n    bottom: 0;\n    /* color: #5e90d6; */\n    color:#002c6a;\n    background-color: #5e90d6;\n    border: 2px solid goldenrod;\n    align-items: center;\n}\n.navbar-top {\n    position: -webkit-sticky;\n    position: sticky;\n    top: 0;\n    color: black;\n    /* background-color: #5e90d6; */\n    color:#002c6a;\n    border: 2px solid goldenrod;\n    align-items: center;\n}\n", ""]);
+exports.push([module.i, "\n#navbar {\n    position: -webkit-sticky;\n    position: sticky;\n    bottom: 0;\n    /* color: #002c6a; */\n    color:#002c6a;\n    background-color: #002c6a;\n    border: 2px solid goldenrod;\n    align-items: center;\n}\n.navbar {\n    position: -webkit-sticky;\n    position: sticky;\n    bottom: 0;\n    /* color: #002c6a; */\n    color:#002c6a;\n    background-color: #002c6a;\n    border: 2px solid goldenrod;\n    align-items: center;\n}\n.navbar-top {\n    position: -webkit-sticky;\n    position: sticky;\n    top: 0;\n    color: black;\n    /* background-color: #002c6a; */\n    color:#002c6a;\n    border: 2px solid goldenrod;\n    align-items: center;\n}\n", ""]);
 
 // exports
 
@@ -50478,9 +50478,9 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\lpain\Website\resources\js\app.js */"./resources/js/app.js");
-__webpack_require__(/*! C:\Users\lpain\Website\resources\sass\app.scss */"./resources/sass/app.scss");
-module.exports = __webpack_require__(/*! C:\Users\lpain\Website\resources\sass\main.scss */"./resources/sass/main.scss");
+__webpack_require__(/*! C:\Users\Lawrence\Website\resources\js\app.js */"./resources/js/app.js");
+__webpack_require__(/*! C:\Users\Lawrence\Website\resources\sass\app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! C:\Users\Lawrence\Website\resources\sass\main.scss */"./resources/sass/main.scss");
 
 
 /***/ })
