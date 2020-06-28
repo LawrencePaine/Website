@@ -1957,15 +1957,21 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   created: function created() {
-    window.addEventListener('scroll', this.handleScroll);
+    window.addEventListener("scroll", this.handleScroll);
   },
   destroyed: function destroyed() {
-    window.removeEventListener('scroll', this.handleScroll);
+    window.removeEventListener("scroll", this.handleScroll);
   },
   methods: {
-    handleScroll: function handleScroll(event) {// Any code to be executed when the window is scrolled
+    handleScroll: function handleScroll(event) {
+      // Any code to be executed when the window is scrolled
+      $("#navbar").addClass("navbar-top");
     }
   }
 });
@@ -6515,7 +6521,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#navbar {\n    position: -webkit-sticky;\n    position: sticky;\n    bottom: 0;\n    /* color: #002c6a; */\n    color:#002c6a;\n    background-color: #002c6a;\n    border: 2px solid goldenrod;\n    align-items: center;\n}\n.navbar {\n    position: -webkit-sticky;\n    position: sticky;\n    bottom: 0;\n    /* color: #002c6a; */\n    color:#002c6a;\n    background-color: #002c6a;\n    border: 2px solid goldenrod;\n    align-items: center;\n}\n.navbar-top {\n    position: -webkit-sticky;\n    position: sticky;\n    top: 0;\n    color: black;\n    /* background-color: #002c6a; */\n    color:#002c6a;\n    border: 2px solid goldenrod;\n    align-items: center;\n}\n", ""]);
+exports.push([module.i, "\n#navbar {\r\n    position: -webkit-sticky;\r\n    position: sticky;\r\n    bottom: 0;\r\n    /* color: #002c6a; */\r\n    color: #002c6a;\r\n    background-color: #002c6a;\r\n    border: 2px solid goldenrod;\r\n    align-items: center;\n}\n.navbar {\r\n    position: -webkit-sticky;\r\n    position: sticky;\r\n    bottom: 0;\r\n    /* color: #002c6a; */\r\n    color: #002c6a;\r\n    background-color: #002c6a;\r\n    border: 2px solid goldenrod;\r\n    align-items: center;\n}\n.navbar-top {\r\n    position: -webkit-sticky;\r\n    position: sticky;\r\n    top: 0;\r\n    color: black;\r\n    /* background-color: #002c6a; */\r\n    color: #002c6a;\r\n    border: 2px solid goldenrod;\r\n    align-items: center;\n}\r\n", ""]);
 
 // exports
 
@@ -50237,6 +50243,11 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+/**
+ * First we will load all of this project's JavaScript dependencies which
+ * includes Vue and other libraries. It is a great starting point when
+ * building robust, powerful web applications using Vue and Laravel.
+ */
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
@@ -50244,7 +50255,7 @@ Vue.component("appcomponent", __webpack_require__(/*! ./components/AppComponent.
 Vue.component("navbar", __webpack_require__(/*! ./components/NavBar.vue */ "./resources/js/components/NavBar.vue")["default"]);
 var app = new Vue({
   el: "#app"
-});
+}); // vue.require('/Utilities/navscroll.js'); not sure on this one chief!
 
 /***/ }),
 

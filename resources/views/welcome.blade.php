@@ -5,7 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <script>window.Laravel = {csrfToken: '{{ csrf_token() }}'}</script>
+    <script>
+        window.Laravel = {
+            csrfToken: '{{ csrf_token() }}'
+        }
+    </script>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     <link href="/css/app.css" rel="stylesheet">
@@ -272,7 +276,7 @@
 </head>
 
 <body>
-    <Header id="home" class="hero" style="background-color: #5e90d6">
+    <Header id="home" class="hero" style="background-color: #002c6a">
         <div class="hero-body">
             <div class="hero-text text-center">
                 <h1><strong>Lawrence Paine</strong></h1>
@@ -296,8 +300,8 @@
                         <div class="profile-text padding-right-yes">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h2 class="section-title">Hello, I'm Lawrence <strong>Paine</strong>.</h2>
-                                    <p style="color: #5e90d6">I am a website developer Based in <strong>Hull, England</strong></p>
+                                    <h2 class="section-title" style="color: #002c6a">Hello, I'm Lawrence <strong>Paine</strong>.</h2>
+                                    <p style="color: #002c6a">I am a website developer Based in <strong>Hull, England</strong></p>
 
                                 </div>
                             </div>
@@ -345,29 +349,29 @@
     <!-- skills SECTION START -->
     <section id="portfolio" class="portfolioSection">
         <div class="portfolio">
-            <h2 style="color: #5e90d6">portfolio<i class="fas fa-laptop-code"></i></h2>
+            <h2 style="color: #002c6a">portfolio<i class="fas fa-laptop-code"></i></h2>
         </div>
         <div class="currentProjects">
-            <h2 style="color: #5e90d6">Current Projects<span><i class="fas fa-tools"></i></span></h2>
-            <h2 style="color: #5e90d6">Coming soon<span><i class="fas fa-tools"></i></span></h2>
+            <h2 style="color: #002c6a">Current Projects<span><i class="fas fa-tools"></i></span></h2>
+            <h2 style="color: #002c6a">Coming soon<span><i class="fas fa-tools"></i></span></h2>
         </div>
     </section>
 
     <!-- contact SECTION START -->
-    <section id="contact" class="section" style="background-color:#5e90d6; border-color:goldenrod">
+    <section id="contact" class="section" style="background-color:#002c6a; border-color:goldenrod">
         <div class="container section-wrapper">
             <div class="section-content">
                 <div class="row">
                     <div class="hero-body">
                         <div class="hero-text text-center" style="height: 250px">
                             <div class="contact-details">
-                                <h4 style="padding-top: 10px; font-weight: bold;">Contact Details</h4>
+                                <h4 style="padding-top: 10px; font-weight: bold; color: goldenrod">Contact Details</h4>
                                 <ul class="list-unstyled text-grey">
-                                    <li>Lawrence Paine</li>
-                                    <li>16 Yeoman Drive, Beverley, UK, HU17 8FG</li>
-                                    <li><a href="tel:+447904343518" style="color: black">+44 7904 343 518</a></li>
-                                    <li><a href="mailto:l.paine@hotmail.co.uk" style="color: black">l.paine@hotmail.co.uk</a></li>
-                                    <li><a href="https://lawrencepaine.co.uk" style="color: black">lawrencepaine.co.uk</a></li>
+                                    <li style="color: goldenrod">Lawrence Paine</li>
+                                    <li style="color: goldenrod">16 Yeoman Drive, Beverley, UK, HU17 8FG</li>
+                                    <li><a href="tel:+447904343518" style="color: goldenrod">+44 7904 343 518</a></li>
+                                    <li><a href="mailto:l.paine@hotmail.co.uk" style="color: goldenrod">l.paine@hotmail.co.uk</a></li>
+                                    <li><a href="https://lawrencepaine.co.uk" style="color: goldenrod">lawrencepaine.co.uk</a></li>
                                 </ul>
                             </div>
                         </div>
