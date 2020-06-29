@@ -1,9 +1,9 @@
 // Fonts
 // Variables
-@import 'variables';
+@import "variables";
 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
 
 body,
 html {
@@ -27,7 +27,7 @@ h1 {
 
 h2 {
     text-align: center;
-    color: white
+    color: white;
 }
 
 p {
@@ -45,20 +45,20 @@ p {
 #nav {
     position: sticky;
     bottom: 0;
-    color:#002c6a;
+    color: #002c6a;
     background-color: #002c6a;
     border: 2px solid goldenrod;
     align-items: center;
 }
 
-.navbar {  
-position: sticky;
-bottom: 0;
-// color: #002c6a;
-color:#002c6a;
-background-color: #002c6a;
-border: 2px solid goldenrod;
-align-items: center;
+.navbar {
+    position: sticky;
+    bottom: 0;
+    // color: #002c6a;
+    color: #002c6a;
+    background-color: #002c6a;
+    border: 2px solid goldenrod;
+    align-items: center;
 }
 .navbar-top {
     position: sticky;
@@ -84,7 +84,7 @@ nav ul {
 nav ul li a {
     color: #ddd;
     text-decoration: none;
-    padding: .8rem 1rem;
+    padding: 0.8rem 1rem;
     display: block;
     line-height: 1;
     text-align: center;
@@ -104,7 +104,7 @@ nav div:first-child {
 
 nav div:first-child h1 {
     line-height: 0;
-    padding: .8rem 0rem;
+    padding: 0.8rem 0rem;
     text-align: center;
 }
 
@@ -235,7 +235,6 @@ nav ul {
 
     nav div:first-child img {
         height: 40px;
-
     }
 
     nav ul li {
@@ -257,7 +256,7 @@ nav ul {
         width: 0%;
         height: 2px;
         background: goldenrod;
-        transition: .2s width ease-in-out;
+        transition: 0.2s width ease-in-out;
     }
 
     nav ul li a::before {
@@ -268,5 +267,4 @@ nav ul {
     nav ul li a:hover::before {
         width: 50%;
     }
-
 }

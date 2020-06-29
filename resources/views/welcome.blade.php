@@ -126,7 +126,6 @@
             border-top: 3px solid #010101;
             position: relative;
             z-index: 3;
-            margin-top: 50px;
         }
 
         .skills {
@@ -295,7 +294,7 @@
         <div class="container section-wrapper">
             <div class="section-content" style="border-color: #DAA520">
                 <div class="row">
-                    <div class="col-md-7 match-height" style="height: 430px;">
+                    <div class="col-md-7 match-height" style="height: 450px;">
                         <!-- PROFILE TEXT START -->
                         <div class="profile-text padding-right-yes">
                             <div class="row">
