@@ -6585,7 +6585,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n#navbar {\r\n    position: -webkit-sticky;\r\n    position: sticky;\r\n    bottom: 0;\r\n    /* color: #002c6a; */\r\n    color: #002c6a;\r\n    background-color: #002c6a;\r\n    border: 2px solid goldenrod;\r\n    align-items: center;\n}\n.navbar {\r\n    position: -webkit-sticky;\r\n    position: sticky;\r\n    bottom: 0;\r\n    /* color: #002c6a; */\r\n    color: #002c6a;\r\n    background-color: #002c6a;\r\n    border: 2px solid goldenrod;\r\n    align-items: center;\n}\n.navbar-top {\r\n    position: -webkit-sticky;\r\n    position: sticky;\r\n    top: 0;\r\n    color: black;\r\n    /* background-color: #002c6a; */\r\n    color: #002c6a;\r\n    border: 2px solid goldenrod;\r\n    align-items: center;\n}\r\n", ""]);
+exports.push([module.i, "\n.container{\r\n    padding-right: 0;\r\n    padding-left: 0;\n}\r\n", ""]);
 
 // exports
 
@@ -50732,9 +50732,9 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Lawrence\Website\resources\js\app.js */"./resources/js/app.js");
-__webpack_require__(/*! C:\Users\Lawrence\Website\resources\sass\app.scss */"./resources/sass/app.scss");
-module.exports = __webpack_require__(/*! C:\Users\Lawrence\Website\resources\sass\main.scss */"./resources/sass/main.scss");
+__webpack_require__(/*! C:\Users\lpain\Website\resources\js\app.js */"./resources/js/app.js");
+__webpack_require__(/*! C:\Users\lpain\Website\resources\sass\app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! C:\Users\lpain\Website\resources\sass\main.scss */"./resources/sass/main.scss");
 
 
 /***/ })

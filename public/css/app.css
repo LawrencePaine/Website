@@ -10883,6 +10883,16 @@ a.text-dark:focus {
 }
 
 body,
+.container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 html {
   font-size: 100%;
   font-family: "Helvetica", sans-serif;

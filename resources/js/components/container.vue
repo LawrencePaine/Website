@@ -35,31 +35,8 @@ export default {
 </script>
 
 <style language="scss">
-#navbar {
-    position: sticky;
-    bottom: 0;
-    /* color: #002c6a; */
-    color: #002c6a;
-    background-color: #002c6a;
-    border: 2px solid goldenrod;
-    align-items: center;
-}
-.navbar {
-    position: sticky;
-    bottom: 0;
-    /* color: #002c6a; */
-    color: #002c6a;
-    background-color: #002c6a;
-    border: 2px solid goldenrod;
-    align-items: center;
-}
-.navbar-top {
-    position: sticky;
-    top: 0;
-    color: black;
-    /* background-color: #002c6a; */
-    color: #002c6a;
-    border: 2px solid goldenrod;
-    align-items: center;
+.container{
+    padding-right: 0;
+    padding-left: 0;
 }
 </style>

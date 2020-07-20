@@ -26,7 +26,7 @@ export default {
     methods: {
         handleScroll(event) {
             // Any code to be executed when the window is scrolled
-            $("#navbar").addClass("navbar-top");
+            $("#Navbar").addClass("navbar-top");
         }
     }
 };
