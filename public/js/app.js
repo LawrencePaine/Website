@@ -1971,7 +1971,7 @@ __webpack_require__.r(__webpack_exports__);
   methods: {
     handleScroll: function handleScroll(event) {
       // Any code to be executed when the window is scrolled
-      $("#navbar").addClass("navbar-top");
+      $("#Navbar").addClass("navbar-top");
     }
   }
 });
