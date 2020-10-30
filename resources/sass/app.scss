@@ -6,12 +6,13 @@
 @import "~bootstrap/scss/bootstrap";
 
 body,
-.container{
+.container {
+    width: auto;
     padding-right: 0;
     padding-left: 0;
 }
 
-#container{
+#container {
     padding-right: 0;
     padding-left: 0;
 }

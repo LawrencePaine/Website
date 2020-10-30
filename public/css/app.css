@@ -10884,6 +10884,7 @@ a.text-dark:focus {
 
 body,
 .container {
+  width: auto;
   padding-right: 0;
   padding-left: 0;
 }
