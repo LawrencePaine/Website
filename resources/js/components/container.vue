@@ -18,20 +18,17 @@
 </template>
 
 <script>
-export default {
-    created() {
-        window.addEventListener("scroll", this.handleScroll);
-    },
-    destroyed() {
-        window.removeEventListener("scroll", this.handleScroll);
-    },
-    methods: {
-        handleScroll(event) {
-            // Any code to be executed when the window is scrolled
-            $("#navbar").addClass("navbar-top");
-        }
-    }
-};
+window.onscroll = function() {myFunction()};
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+} 
 </script>
 
 <style language="scss">

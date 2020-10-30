@@ -6,26 +6,15 @@
 </template>
 
 <script>
+window.onscroll = function() {myFunction()};
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
 
-    
-    export default {
-    // methods: {
-    // handleScroll(event) {
-    //     // Any code to be executed when the window is scrolled
-    //     this.isUserScrolling = (window.scrollY > 0);
-    //     console.log('calling handleScroll');
-    // }
-    // },
-
-    // created() {
-    // this.handleDebouncedScroll = debounce(this.handleScroll, 100);
-    // window.addEventListener('scroll', this.handleDebouncedScroll);
-    // },
-
-    // beforeDestroy() {
-    // // I switched the example from `destroyed` to `beforeDestroy`
-    // // to exercise your mind a bit. This lifecycle method works too.
-    // window.removeEventListener('scroll', this.handleDebouncedScroll);
-    // }
-    }
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+} 
 </script>
