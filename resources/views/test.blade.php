@@ -61,7 +61,7 @@
         </section>
 
         <div id="app">
-            <navbar id="navbar"></navbar>
+            <navbar></navbar>
             <script src="{{ asset('Utilities/navscroll.js') }}" defer></script>
             <div class="container">
                 <header></header>
@@ -133,20 +133,8 @@
                 <!-- //.section-content -->
             </div>
         </section>
-        <!-- <script src="{{ asset('Utilities/navscroll.js') }}" defer></script> -->
+        <script src="{{ asset('Utilities/navscroll.js') }}" defer></script>
         <script src="{{ asset('js/app.js')}}"></script>
-        <script>
-            window.onscroll = function() {myFunction()};
-            var navbar = document.getElementById("navbar");
-            var sticky = navbar.offsetTop;
-            function myFunction() {
-            if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-            } else {
-                navbar.classList.remove("sticky");
-            }
-            } 
-        </script>
     </body>
 </div>
 

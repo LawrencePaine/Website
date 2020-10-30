@@ -3,7 +3,7 @@
 @import "variables";
 
 // Bootstrap
-@import "~bootstrap/scss/bootstrap";
+// @import "~bootstrap/scss/bootstrap";
 
 body,
 html {
@@ -54,7 +54,7 @@ p {
 
 #nav {
     position: sticky;
-    bottom: 0;
+    // bottom: 0;
     color: #002c6a;
     background-color: #002c6a;
     border: 2px solid goldenrod;
@@ -62,14 +62,23 @@ p {
 }
 
 .navbar {
-    position: sticky;
-    bottom: 0;
-    // color: #002c6a;
+    // position: sticky;
+    // bottom: 0;
     color: #002c6a;
     background-color: #002c6a;
     border: 2px solid goldenrod;
     align-items: center;
+    overflow: hidden;
 }
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
 .navbar-top {
     position: sticky;
     top: 0;
@@ -78,6 +87,17 @@ p {
     border: 2px solid goldenrod;
     align-items: center;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  } 
 
 .profile-text {
     padding-top: 100px;

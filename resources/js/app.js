@@ -14,5 +14,3 @@ Vue.component("container", require("./components/container.vue").default);
 const app = new Vue({
     el: "#app"
 });
-
-// vue.require('/Utilities/navscroll.js'); not sure on this one chief!
