@@ -48,6 +48,7 @@ p {
 #nav {
   position: -webkit-sticky;
   position: sticky;
+  bottom: 0;
   color: #002c6a;
   background-color: #002c6a;
   border: 2px solid goldenrod;
@@ -55,20 +56,14 @@ p {
 }
 
 .navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
   color: #002c6a;
   background-color: #002c6a;
   border: 2px solid goldenrod;
   align-items: center;
   overflow: hidden;
-}
-
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
 }
 
 .navbar-top {
