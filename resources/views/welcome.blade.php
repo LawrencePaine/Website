@@ -112,8 +112,7 @@
                                     <h4 style="padding-top: 10px; font-weight: bold; color: goldenrod">Contact Details</h4>
                                     <ul class="list-unstyled text-grey">
                                         <li style="color: goldenrod">Lawrence Paine</li>
-                                        <li style="color: goldenrod">16 Yeoman Drive, Beverley, UK, HU17 8FG</li>
-                                        <li><a href="tel:+447904343518" style="color: goldenrod">+44 7904 343 518</a></li>
+                                        <!-- <li><a href="tel:+447904343518" style="color: goldenrod">+44 7904 343 518</a></li> -->
                                         <li><a href="mailto:l.paine@hotmail.co.uk" style="color: goldenrod">l.paine@hotmail.co.uk</a></li>
                                         <li><a href="https://lawrencepaine.co.uk" style="color: goldenrod">lawrencepaine.co.uk</a></li>
                                     </ul>
